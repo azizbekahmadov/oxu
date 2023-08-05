@@ -1,0 +1,777 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #c7f3fc;
+}
+.navbar .rasm {
+  width: 50px;
+  height: 60px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.navbar .marj ul {
+  display: flex;
+  list-style: none;
+  margin-left: 600px;
+}
+.navbar .marj li {
+  text-decoration: none;
+  margin: 30px;
+  color: black;
+}
+.navbar .marj a {
+  color: black;
+  font-weight: 700;
+}
+.navbar .btn {
+  display: inline-block;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 12px;
+  letter-spacing: -0.1px;
+  text-decoration: none;
+  margin-top: 15px;
+  margin-right: 100px;
+}
+.navbar .btn:hover {
+  background-color: white;
+  color: blue;
+  border: 2px solid darkblue;
+  transition: all 0.4s ease;
+}
+.navbar .btn:active {
+  background-color: blue;
+  color: white;
+  opacity: 0.6;
+}
+
+.keyin {
+  position: relative;
+}
+.keyin .kartin {
+  background-size: cover;
+}
+.keyin .qora {
+  width: 100%;
+  height: 1200px;
+  position: absolute;
+  background-color: black;
+  opacity: 0.5;
+}
+.keyin .hamma {
+  position: absolute;
+  top: 0;
+  color: #fff;
+  text-align: center;
+  margin-left: 780px;
+  margin-top: 290px;
+  width: 600px;
+}
+.keyin .son1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.keyin .son2 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.keyin .son3 {
+  display: inline-block;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  letter-spacing: -0.1px;
+  text-decoration: none;
+  margin-top: 40px;
+}
+.keyin .son3:hover {
+  background-color: white;
+  color: blue;
+  border: 2px solid darkblue;
+  transition: all 0.4s ease;
+}
+.keyin .son3:active {
+  background-color: blue;
+  color: white;
+  opacity: 0.6;
+}
+.keyin .son4 {
+  width: 150px;
+  height: 45px;
+  margin-left: 10px;
+  background-color: #fff;
+  border: none;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.host {
+  position: absolute;
+  top: 550px;
+  left: 490px;
+  color: #fff;
+  display: flex;
+}
+.host .aziz1 {
+  display: inline-block;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  background-color: #c7f3fc;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  letter-spacing: -0.1px;
+  text-decoration: none;
+  margin-top: 40px;
+}
+.host .aziz1:hover {
+  background-color: white;
+  color: blue;
+  border: 2px solid darkblue;
+  transition: all 0.4s ease;
+}
+.host .aziz1:active {
+  background-color: blue;
+  color: white;
+  opacity: 0.6;
+}
+.host .item1 {
+  width: 300px;
+  text-align: center;
+}
+.host .item2 {
+  width: 300px;
+  text-align: center;
+}
+.host .item3 {
+  width: 300px;
+  text-align: center;
+}
+.host .item4 {
+  width: 300px;
+  text-align: center;
+}
+.host .aziz2 {
+  font-weight: 700;
+  margin-top: 20px;
+}
+.host .aziz3 {
+  font-weight: 700;
+  margin-top: 20px;
+}
+.host .aziz4 {
+  font-weight: 700;
+  margin-top: 20px;
+}
+.host .aziz5 {
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.box {
+  width: 100%;
+  height: 3600px;
+  background-color: #c7f3fc;
+  margin-top: -10px;
+  position: relative;
+}
+.box .karobka {
+  width: 600px;
+  text-align: center;
+  left: 800px;
+  top: 100px;
+  position: absolute;
+}
+.box .dip2 {
+  position: absolute;
+  top: 170px;
+  font-size: 17px;
+  font-weight: 700;
+}
+.box .dip1 {
+  font-size: 50px;
+}
+.box .bosch {
+  position: absolute;
+  margin-top: 600px;
+  display: flex;
+  margin-left: 450px;
+}
+.box .bosch .olma1 {
+  width: 410px;
+  height: 530px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.box .bosch .olma2 {
+  width: 410px;
+  height: 530px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.box .bosch .olma3 {
+  width: 410px;
+  height: 530px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.box .bosch .war {
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.box .bosch .mr1 {
+  font-size: 23px;
+  font-weight: 800;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.box .bosch .mr2 {
+  font-size: 15px;
+  font-weight: 800;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.box .bosch .body1 {
+  margin-top: 300px;
+}
+
+.rasmlar {
+  position: absolute;
+  top: 2600px;
+  margin-left: 740px;
+}
+.rasmlar .zarya {
+  font-size: 50px;
+  font-weight: 700;
+}
+.rasmlar .san {
+  margin-left: -270px;
+  margin-top: 50px;
+}
+
+.rasmlar2 {
+  position: absolute;
+  top: 4000px;
+  margin-left: 740px;
+}
+.rasmlar2 .zaryad {
+  font-size: 50px;
+  font-weight: 700;
+}
+.rasmlar2 .san2 {
+  width: 1200px;
+  margin-left: -200px;
+  margin-top: 30px;
+}
+
+.akfix {
+  display: flex;
+  position: absolute;
+  top: 5300px;
+  left: 510px;
+}
+.akfix .bot1 {
+  width: 350px;
+  height: 570px;
+  background-color: #c7f3fc;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  text-align: center;
+}
+.akfix .bot1 .ten1 {
+  width: 320px;
+  margin-left: 13px;
+  margin-top: 50px;
+}
+.akfix .bot1 .ten1 .xona2 {
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+.akfix .bot1 .ten1 .xona3 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+.akfix .bot1 .ten1 .xona4 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+.akfix .bot1 .ten1 .xona5 {
+  width: 180px;
+  height: 50px;
+  border: none;
+  color: #fff;
+  background-color: blue;
+  font-weight: 700;
+  border-radius: 10px;
+  font-size: 17px;
+  margin-top: 100px;
+}
+.akfix .bot2 {
+  width: 350px;
+  height: 570px;
+  background-color: #c7f3fc;
+  border-radius: 15px;
+  margin-left: 50px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.akfix .bot2 .ten1 {
+  width: 320px;
+  margin-left: 13px;
+  margin-top: 50px;
+}
+.akfix .bot2 .ten1 .xona2 {
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+.akfix .bot2 .ten1 .xona3 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+.akfix .bot2 .ten1 .xona4 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+.akfix .bot2 .ten1 .xona5 {
+  width: 180px;
+  height: 50px;
+  border: none;
+  color: #fff;
+  background-color: blue;
+  font-weight: 700;
+  border-radius: 10px;
+  font-size: 17px;
+  margin-top: 180px;
+}
+.akfix .bot3 {
+  width: 350px;
+  height: 570px;
+  background-color: #c7f3fc;
+  border-radius: 15px;
+  margin-left: 50px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.akfix .bot3 .ten1 {
+  width: 320px;
+  margin-left: 13px;
+  margin-top: 50px;
+}
+.akfix .bot3 .ten1 .xona2 {
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+.akfix .bot3 .ten1 .xona3 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+.akfix .bot3 .ten1 .xona4 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+.akfix .bot3 .ten1 .xona5 {
+  width: 180px;
+  height: 50px;
+  border: none;
+  color: #fff;
+  background-color: blue;
+  font-weight: 700;
+  border-radius: 10px;
+  font-size: 17px;
+  margin-top: 140px;
+}
+.akfix .baka {
+  font-size: 50px;
+  position: absolute;
+  top: -240px;
+  left: 460px;
+}
+
+.akfix2 {
+  display: flex;
+  position: absolute;
+  top: 6300px;
+  left: 510px;
+}
+.akfix2 .bot1 {
+  width: 350px;
+  height: 570px;
+  background-color: #c7f3fc;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  text-align: center;
+}
+.akfix2 .bot1 .ten1 {
+  width: 320px;
+  margin-left: 13px;
+  margin-top: 50px;
+}
+.akfix2 .bot1 .ten1 .xona2 {
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+.akfix2 .bot1 .ten1 .xona3 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+.akfix2 .bot1 .ten1 .xona4 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+.akfix2 .bot1 .ten1 .xona5 {
+  width: 180px;
+  height: 50px;
+  border: none;
+  color: #fff;
+  background-color: blue;
+  font-weight: 700;
+  border-radius: 10px;
+  font-size: 17px;
+  margin-top: 100px;
+}
+.akfix2 .bot2 {
+  width: 350px;
+  height: 570px;
+  background-color: #c7f3fc;
+  border-radius: 15px;
+  margin-left: 50px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.akfix2 .bot2 .ten1 {
+  width: 320px;
+  margin-left: 13px;
+  margin-top: 50px;
+}
+.akfix2 .bot2 .ten1 .xona2 {
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+.akfix2 .bot2 .ten1 .xona3 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+.akfix2 .bot2 .ten1 .xona4 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+.akfix2 .bot2 .ten1 .xona5 {
+  width: 180px;
+  height: 50px;
+  border: none;
+  color: #fff;
+  background-color: blue;
+  font-weight: 700;
+  border-radius: 10px;
+  font-size: 17px;
+  margin-top: 180px;
+}
+.akfix2 .bot3 {
+  width: 350px;
+  height: 570px;
+  background-color: #c7f3fc;
+  border-radius: 15px;
+  margin-left: 50px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.akfix2 .bot3 .ten1 {
+  width: 320px;
+  margin-left: 13px;
+  margin-top: 50px;
+}
+.akfix2 .bot3 .ten1 .xona2 {
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+.akfix2 .bot3 .ten1 .xona3 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+.akfix2 .bot3 .ten1 .xona4 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+.akfix2 .bot3 .ten1 .xona5 {
+  width: 180px;
+  height: 50px;
+  border: none;
+  color: #fff;
+  background-color: blue;
+  font-weight: 700;
+  border-radius: 10px;
+  font-size: 17px;
+  margin-top: 140px;
+}
+.akfix2 .baka {
+  font-size: 50px;
+  position: absolute;
+  top: -240px;
+  left: 460px;
+}
+
+.litsenziya {
+  margin-top: 2200px;
+  text-align: center;
+}
+.litsenziya .yurak {
+  font-size: 50px;
+}
+.litsenziya .license {
+  margin-top: 70px;
+  width: 700px;
+}
+
+.suhbat {
+  margin-top: 200px;
+  text-align: center;
+}
+.suhbat .uquv {
+  font-size: 40px;
+}
+.suhbat .nest {
+  width: 600px;
+  margin-left: 770px;
+}
+.suhbat .hujjat {
+  display: flex;
+  margin-top: 190px;
+}
+.suhbat .hujjat .item1 {
+  width: 300px;
+  height: 300px;
+  margin-left: 530px;
+  text-align: left;
+}
+.suhbat .hujjat .item1 .fa-square-check {
+  font-size: 100px;
+  margin-left: 100px;
+}
+.suhbat .hujjat .item1 .rauf1 {
+  text-align: 700;
+  margin-top: 60px;
+  font-weight: 700;
+}
+.suhbat .hujjat .item1 .marj ol {
+  margin-top: 10px;
+  margin-left: 18px;
+}
+.suhbat .hujjat .item1 .marj li {
+  font-weight: 700;
+}
+.suhbat .hujjat .item2 {
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
+  text-align: left;
+}
+.suhbat .hujjat .item2 .fa-question {
+  font-size: 100px;
+  margin-left: 100px;
+}
+.suhbat .hujjat .item2 .rauf1 {
+  text-align: 700;
+  margin-top: 60px;
+  font-weight: 700;
+}
+.suhbat .hujjat .item2 .marj ol {
+  margin-top: 10px;
+  margin-left: 18px;
+}
+.suhbat .hujjat .item2 .marj li {
+  font-weight: 700;
+}
+.suhbat .hujjat .item3 {
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
+  text-align: left;
+}
+.suhbat .hujjat .item3 .fa-comment {
+  font-size: 100px;
+  margin-left: 100px;
+}
+.suhbat .hujjat .item3 .rauf1 {
+  text-align: 700;
+  margin-top: 60px;
+  font-weight: 700;
+}
+.suhbat .hujjat .item3 .marj ol {
+  margin-top: 10px;
+  margin-left: 18px;
+}
+.suhbat .hujjat .item3 .marj li {
+  font-weight: 700;
+}
+.suhbat .son3 {
+  display: inline-block;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  letter-spacing: -0.1px;
+  text-decoration: none;
+  margin-top: 100px;
+}
+.suhbat .son3:hover {
+  background-color: white;
+  color: blue;
+  border: 2px solid darkblue;
+  transition: all 0.4s ease;
+}
+.suhbat .son3:active {
+  background-color: blue;
+  color: white;
+  opacity: 0.6;
+}
+.suhbat .son9 {
+  width: 150px;
+  height: 45px;
+  margin-left: 10px;
+  background-color: blue;
+  border: none;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.car {
+  width: 100%;
+  height: 800px;
+  background-color: rgb(0, 0, 46);
+  margin-top: 100px;
+  text-align: center;
+  position: relative;
+}
+.car .kecha1 {
+  color: #fff;
+  margin-top: 90px;
+  font-size: 40px;
+}
+.car .kecha2 {
+  color: #fff;
+  font-size: 20px;
+}
+.car .bola {
+  margin-top: 250px;
+}
+.car .com {
+  position: absolute;
+  left: 860px;
+}
+
+.foot {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  position: relative;
+}
+.foot .sobit {
+  margin-left: 900px;
+  width: 1200px;
+  height: 400px;
+  position: absolute;
+  top: 50px;
+}
+.foot .chap1 {
+  font-size: 20px;
+  margin-left: 50px;
+  margin-top: 100px;
+  position: absolute;
+}
+.foot .chap2 {
+  font-size: 20px;
+  margin-left: 50px;
+  position: absolute;
+  top: 130px;
+}
+.foot .ong1 {
+  position: absolute;
+  top: 100px;
+  font-size: 20px;
+  font-weight: 700;
+  left: 500px;
+}
+.foot .ong2 {
+  position: absolute;
+  top: 130px;
+  font-size: 20px;
+  left: 500px;
+  text-decoration: underline;
+}
+.foot .ong3 {
+  position: absolute;
+  top: 160px;
+  font-size: 20px;
+  left: 500px;
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */

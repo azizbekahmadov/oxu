@@ -1,0 +1,784 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.container{
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #c7f3fc;
+    .rasm{
+        width: 50px;
+        height: 60px;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    .marj ul{
+        display: flex;
+        list-style: none;
+        margin-left: 600px;
+    }
+    .marj li{
+        text-decoration: none;
+        margin: 30px;
+        color: black;
+    }
+    .marj a{
+        color: black;
+        font-weight: 700;
+    }
+    .btn{
+        display: inline-block;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 12px 20px;
+        background-color: blue;
+        color: white;
+        border-radius: 12px;
+        letter-spacing: -0.1px;
+        text-decoration: none;
+        margin-top: 15px;
+        margin-right: 100px;
+    }
+    .btn:hover{
+        background-color: white;
+        color: blue;
+        border: 2px solid darkblue;
+        transition: all .4s ease;
+    }
+    .btn:active{
+        background-color: blue;
+        color: white;
+        opacity: 0.6;
+    }
+}
+.keyin{
+    position: relative;
+    .kartin{
+        background-size: cover;
+    }
+    .qora{
+        width: 100%;
+        height: 1200px;
+        position: absolute;
+        background-color: black;
+        opacity: 0.5;
+    }
+    .hamma{
+        position: absolute;
+        top: 0;
+        color: #fff;
+        text-align: center;
+        margin-left: 780px;
+        margin-top: 290px;
+        width: 600px;
+    }
+    .son1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .son2{
+        font-size: 25px;
+        font-weight: 400;
+        margin-top: 15px;
+    }
+    .son3{
+        display: inline-block;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 12px 20px;
+        background-color: blue;
+        color: white;
+        border-radius: 5px;
+        letter-spacing: -0.1px;
+        text-decoration: none;
+        // margin-top: 15px;
+        // margin-right: 100px;
+        margin-top: 40px;
+    }
+    .son3:hover{
+        background-color: white;
+        color: blue;
+        border: 2px solid darkblue;
+        transition: all .4s ease;
+    }
+    .son3:active{
+        background-color: blue;
+        color: white;
+        opacity: 0.6;
+    }
+    .son4{
+        width: 150px;
+        height: 45px;
+        margin-left: 10px;
+        background-color: #fff;
+        border: none;
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+}
+.host{
+    position: absolute;
+    top: 550px;
+    left: 490px;
+    color: #fff;
+    display: flex;
+    .aziz1{
+        display: inline-block;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 12px 20px;
+        background-color: #c7f3fc;
+        color: rgb(0, 0, 0);
+        border-radius: 5px;
+        letter-spacing: -0.1px;
+        text-decoration: none;
+        // margin-top: 15px;
+        // margin-right: 100px;
+        margin-top: 40px;
+    }
+    .aziz1:hover{
+        background-color: white;
+        color: blue;
+        border: 2px solid darkblue;
+        transition: all .4s ease;
+    }
+    .aziz1:active{
+        background-color: blue;
+        color: white;
+        opacity: 0.6;
+    }
+    .item1{
+        width: 300px;
+        text-align: center;
+    }
+    .item2{
+        width: 300px;
+        text-align: center;
+    }
+    .item3{
+        width: 300px;
+        text-align: center;
+    }
+    .item4{
+        width: 300px;
+        text-align: center;
+    }
+    .aziz2{
+        font-weight: 700;
+        margin-top: 20px;
+    }
+    .aziz3{
+        font-weight: 700;
+        margin-top: 20px;
+    }
+    .aziz4{
+        font-weight: 700;
+        margin-top: 20px;
+    }
+    .aziz5{
+        font-weight: 700;
+        margin-top: 20px;
+    }
+}
+.box{
+    width: 100%;
+    height: 3600px;
+    background-color: #c7f3fc;
+    margin-top: -10px;
+    position: relative;
+    .karobka{
+        width: 600px;
+        text-align: center;
+        left: 800px;
+        top: 100px;
+        position: absolute;
+    }
+    .dip2{
+        position: absolute;
+        top: 170px;
+        font-size: 17px;
+        font-weight: 700;
+    }
+    .dip1{
+        font-size: 50px;
+    }
+    .bosch{
+        position: absolute;
+        margin-top: 600px;
+        display: flex;
+        margin-left: 450px;
+        .olma1{
+            width: 410px;
+            height: 530px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .olma2{
+            width: 410px;
+            height: 530px;
+            background-color: #fff;
+            border-radius: 10px;
+            margin-left: 30px;
+            cursor: pointer;
+        }
+        .olma3{
+            width: 410px;
+            height: 530px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            margin-left: 30px;
+            cursor: pointer;
+        }
+        .war{
+            border-radius: 10px;
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+        .mr1{
+            font-size: 23px;
+            font-weight: 800;
+            margin-left: 30px;
+            margin-top: 20px;
+        }
+        .mr2{
+            font-size: 15px;
+            font-weight: 800;
+            margin-left: 30px;
+            margin-top: 20px;
+        }
+        .body1{
+            margin-top: 300px;
+        }
+    }
+}
+.rasmlar{
+    position: absolute;
+    top: 2600px;
+    margin-left: 740px;
+    .zarya{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .san{
+        margin-left: -270px;
+        margin-top: 50px;
+    }
+}
+.rasmlar2{
+    position: absolute;
+    top: 4000px;
+    margin-left: 740px;
+    .zaryad{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .san2{
+        width: 1200px;
+        margin-left: -200px;
+        margin-top: 30px;
+    }
+}
+.akfix{
+    display: flex;
+    position: absolute;
+    top: 5300px;
+    left: 510px;
+    .bot1{
+        width: 350px;
+        height: 570px;
+        background-color:#c7f3fc;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        text-align: center;
+        .ten1{
+            width: 320px;
+            margin-left: 13px;
+            margin-top: 50px;
+            .xona2{
+                margin-top: 40px;
+                font-size: 18px;
+                font-weight: 700;
+                color:gray;
+            }
+            .xona3{
+                margin-top: 20px;
+                font-size: 18px;
+                font-weight: 700;
+                color:gray;
+            }
+            .xona4{
+                margin-top: 20px;
+                font-size: 18px;
+                font-weight: 700;
+                color:gray;
+            }
+            .xona5{
+                width: 180px;
+                height: 50px;
+                border: none;
+                color: #fff;
+                background-color:blue;
+                font-weight: 700;
+                border-radius:10px;
+                font-size: 17px;
+                margin-top: 100px;
+            }
+        }
+    }
+    .bot2{
+        width: 350px;
+        height: 570px;
+        background-color:#c7f3fc;
+        border-radius: 15px;
+        margin-left: 50px;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        .ten1{
+            width: 320px;
+            margin-left: 13px;
+            margin-top: 50px;
+            .xona2{
+                margin-top: 40px;
+                font-size: 18px;
+                font-weight: 700;
+                color:gray;
+            }
+            .xona3{
+                margin-top: 20px;
+                font-size: 18px;
+                font-weight: 700;
+                color:gray;
+            }
+            .xona4{
+                margin-top: 20px;
+                font-size: 18px;
+                font-weight: 700;
+                color:gray;
+            }
+            .xona5{
+                width: 180px;
+                height: 50px;
+                border: none;
+                color: #fff;
+                background-color:blue;
+                font-weight: 700;
+                border-radius:10px;
+                font-size: 17px;
+                margin-top: 180px;
+            }
+        }
+    }
+    .bot3{
+        width: 350px;
+        height: 570px;
+        background-color:#c7f3fc;
+        border-radius: 15px;
+        margin-left: 50px;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        .ten1{
+            width: 320px;
+            margin-left: 13px;
+            margin-top: 50px;
+            .xona2{
+                margin-top: 40px;
+                font-size: 18px;
+                font-weight: 700;
+                color:gray;
+            }
+            .xona3{
+                margin-top: 20px;
+                font-size: 18px;
+                font-weight: 700;
+                color:gray;
+            }
+            .xona4{
+                margin-top: 20px;
+                font-size: 18px;
+                font-weight: 700;
+                color:gray;
+            }
+            .xona5{
+                width: 180px;
+                height: 50px;
+                border: none;
+                color: #fff;
+                background-color:blue;
+                font-weight: 700;
+                border-radius:10px;
+                font-size: 17px;
+                margin-top: 140px;
+            }
+        }
+    }
+    .baka{
+        font-size: 50px;
+        position: absolute;
+        top: -240px;
+        left: 460px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.akfix2{
+    display: flex;
+    position: absolute;
+    top: 6300px;
+    left: 510px;
+    .bot1{
+        width: 350px;
+        height: 570px;
+        background-color:#c7f3fc;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        text-align: center;
+        .ten1{
+            width: 320px;
+            margin-left: 13px;
+            margin-top: 50px;
+            .xona2{
+                margin-top: 40px;
+                font-size: 18px;
+                font-weight: 700;
+                color:gray;
+            }
+            .xona3{
+                margin-top: 20px;
+                font-size: 18px;
+                font-weight: 700;
+                color:gray;
+            }
+            .xona4{
+                margin-top: 20px;
+                font-size: 18px;
+                font-weight: 700;
+                color:gray;
+            }
+            .xona5{
+                width: 180px;
+                height: 50px;
+                border: none;
+                color: #fff;
+                background-color:blue;
+                font-weight: 700;
+                border-radius:10px;
+                font-size: 17px;
+                margin-top: 100px;
+            }
+        }
+    }
+    .bot2{
+        width: 350px;
+        height: 570px;
+        background-color:#c7f3fc;
+        border-radius: 15px;
+        margin-left: 50px;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        .ten1{
+            width: 320px;
+            margin-left: 13px;
+            margin-top: 50px;
+            .xona2{
+                margin-top: 40px;
+                font-size: 18px;
+                font-weight: 700;
+                color:gray;
+            }
+            .xona3{
+                margin-top: 20px;
+                font-size: 18px;
+                font-weight: 700;
+                color:gray;
+            }
+            .xona4{
+                margin-top: 20px;
+                font-size: 18px;
+                font-weight: 700;
+                color:gray;
+            }
+            .xona5{
+                width: 180px;
+                height: 50px;
+                border: none;
+                color: #fff;
+                background-color:blue;
+                font-weight: 700;
+                border-radius:10px;
+                font-size: 17px;
+                margin-top: 180px;
+            }
+        }
+    }
+    .bot3{
+        width: 350px;
+        height: 570px;
+        background-color:#c7f3fc;
+        border-radius: 15px;
+        margin-left: 50px;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        .ten1{
+            width: 320px;
+            margin-left: 13px;
+            margin-top: 50px;
+            .xona2{
+                margin-top: 40px;
+                font-size: 18px;
+                font-weight: 700;
+                color:gray;
+            }
+            .xona3{
+                margin-top: 20px;
+                font-size: 18px;
+                font-weight: 700;
+                color:gray;
+            }
+            .xona4{
+                margin-top: 20px;
+                font-size: 18px;
+                font-weight: 700;
+                color:gray;
+            }
+            .xona5{
+                width: 180px;
+                height: 50px;
+                border: none;
+                color: #fff;
+                background-color:blue;
+                font-weight: 700;
+                border-radius:10px;
+                font-size: 17px;
+                margin-top: 140px;
+            }
+        }
+    }
+    .baka{
+        font-size: 50px;
+        position: absolute;
+        top: -240px;
+        left: 460px;
+    }
+}
+.litsenziya{
+    margin-top: 2200px;
+    text-align: center;
+    .yurak{
+        font-size: 50px;
+    }
+    .license{
+        margin-top: 70px;
+        width: 700px;
+    }
+}
+.suhbat{
+    margin-top: 200px;
+    text-align: center;
+    .uquv{
+        font-size: 40px;
+    }
+    .nest{
+        width: 600px;
+        margin-left: 770px;
+    }
+  .hujjat{
+    display: flex;
+    margin-top: 190px;
+        .item1{
+        width: 300px;
+        height: 300px;
+        margin-left: 530px;
+        text-align: left;
+        .fa-square-check{
+            font-size: 100px;
+            margin-left: 100px;
+        }
+        .rauf1{
+            text-align: 700;
+            margin-top: 60px;
+            font-weight: 700;
+
+        }
+        .marj ol{
+            margin-top: 10px;
+            margin-left: 18px;
+        }
+        .marj li{
+            font-weight: 700;
+        }
+        }
+        .item2{
+        width: 300px;
+        height: 300px;
+        margin-left: 100px;
+        text-align: left;
+        .fa-question{
+            font-size: 100px;
+            margin-left: 100px;
+        }
+        .rauf1{
+            text-align: 700;
+            margin-top: 60px;
+            font-weight: 700;
+
+        }
+        .marj ol{
+            margin-top: 10px;
+            margin-left: 18px;
+        }
+        .marj li{
+            font-weight: 700;
+        }
+        }
+        .item3{
+        width: 300px;
+        height: 300px;
+        margin-left: 100px;
+        text-align: left;
+        .fa-comment{
+            font-size: 100px;
+            margin-left: 100px;
+        }
+        .rauf1{
+            text-align: 700;
+            margin-top: 60px;
+            font-weight: 700;
+
+        }
+        .marj ol{
+            margin-top: 10px;
+            margin-left: 18px;
+        }
+        .marj li{
+            font-weight: 700;
+        }
+        }
+    }
+    .son3{
+        display: inline-block;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 12px 20px;
+        background-color: blue;
+        color: white;
+        border-radius: 5px;
+        letter-spacing: -0.1px;
+        text-decoration: none;
+        margin-top: 100px;
+        // margin-top: 15px;
+        // margin-right: 100px;
+    }
+    .son3:hover{
+        background-color: white;
+        color: blue;
+        border: 2px solid darkblue;
+        transition: all .4s ease;
+    }
+    .son3:active{
+        background-color: blue;
+        color: white;
+        opacity: 0.6;
+    }
+    .son9{
+        width: 150px;
+        height: 45px;
+        margin-left: 10px;
+        background-color: blue;
+        border: none;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-size: 14px;
+        border-radius: 5px;
+        font-weight: 700;
+    }  
+}
+.car{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(0, 0, 46);
+    margin-top: 100px;
+    text-align: center;
+    position: relative;
+    .kecha1{
+        color:#fff;
+        margin-top: 90px;
+        font-size: 40px;
+    }
+    .kecha2{
+        color:#fff;
+        font-size: 20px;
+    }
+    .bola{
+        margin-top: 250px;
+    }
+    .com{
+        position: absolute;
+        left: 860px;
+    }
+}
+.foot{
+    width: 100%;
+    height: 500px;
+    background-color:rgb(0, 0, 0);
+    color:#fff;
+    position: relative;
+    .sobit{
+        margin-left: 900px;
+        width: 1200px;
+        height: 400px;
+        position: absolute;
+        top: 50px;
+    }
+    .chap1{
+        font-size: 20px;
+        margin-left: 50px;
+        margin-top: 100px;
+        position: absolute;
+    }
+    .chap2{
+        font-size: 20px;
+        margin-left: 50px;
+        position: absolute;
+        top: 130px;
+    }
+    .ong1{
+        position: absolute;
+        top: 100px;
+        font-size: 20px;
+        font-weight: 700;
+        left: 500px;
+    }
+    .ong2{
+        position: absolute;
+        top: 130px;
+        font-size: 20px;
+        left: 500px;
+        text-decoration: underline;
+    }
+    .ong3{
+        position: absolute;
+        top: 160px;
+        font-size: 20px;
+        left: 500px;
+        text-decoration: underline;
+    }
+}
